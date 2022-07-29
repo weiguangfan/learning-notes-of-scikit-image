@@ -31,3 +31,5 @@ Other Parameters
 from skimage import io
 io_imread = io.imread("../../../fish.JPEG")
 print(io_imread)
+print(type(io_imread))
+print(io_imread.dtype)
